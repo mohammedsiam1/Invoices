@@ -21,11 +21,16 @@
 							<div class="row">
 								<div class="col-md-10 col-lg-10 col-xl-9 mx-auto">
 									<div class="card-sigin">
-										<div class="mb-5 d-flex"> <h1 class="main-logo1 ml-1 mr-0 my-auto tx-28">ادفع <span>فواتيرك</span></h1></div>
+										<div class="mb-5 d-flex"> 
+										<img src="{{URL::asset('assets/img/media/payicon.ico')}}"  height=40 alt="logo"> &nbsp;&nbsp;&nbsp;&nbsp;
+											<h1 class="main-logo1 ml-1 mr-0 my-auto tx-28">ادفع 
+												<span>فواتيرك</span>
+											</h1>
+										</div>
 										<div class="card-sigin">
 											<div class="main-signup-header">
-												<h2>مرحبا بك</h2>
-												<h5 class="font-weight-semibold mb-4"> تسجيل الدخول</h5>
+												
+												<h5 class="font-weight-semibold mb-4"><span style="font-size:22px" class="text-primary">مرحبا بك</span> تسجيل الدخول </h5>
                                                 <form method="POST" action="{{ route('login') }}">
                                                  @csrf
 													<div class="form-group">
@@ -76,7 +81,7 @@
                 <div class="col-md-4 col-lg-4 col-xl-7 d-none d-md-flex bg-primary-transparent">
 					<div class="row wd-100p mx-auto text-center">
 						<div class="col-md-12 col-lg-12 col-xl-12 my-auto mx-auto wd-100p">
-							<img src="{{URL::asset('assets/img/media/login8.jpg')}}" class="my-auto ht-xl-70p wd-md-100p wd-xl-70p mx-auto" alt="logo">
+							<img src="{{URL::asset('assets/img/media/login9.png')}}" class="my-auto ht-xl-70p wd-md-100p wd-xl-70p mx-auto" alt="logo">
 						</div>
 					</div>
 				</div>
